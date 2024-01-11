@@ -6,10 +6,10 @@ for (let i = 0; i < 10; i++){
     let userNumberInt = parseInt(userNumber);
     
     userNumberArray.push(userNumberInt);
-    
+    somma += userNumberArray[i];
 }
+prompt(`your total is ${somma}`)
 
-console.log(somma)
 
 
 
